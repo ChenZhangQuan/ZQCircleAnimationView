@@ -3,7 +3,7 @@
 //  ZQAnimateCircleView
 //
 //  Created by 陈樟权 on 16/5/20.
-//  Copyright © 2016年 陈樟权. All rights reserved.
+//  Copyright © 2016年 陈樟权. All rights reserved.xxx
 //
 
 #import "AppDelegate.h"
