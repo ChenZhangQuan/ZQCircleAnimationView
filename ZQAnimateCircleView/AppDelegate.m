@@ -2,7 +2,7 @@
 //  AppDelegate.m
 //  ZQAnimateCircleView
 //
-//  Created by 陈樟权 on 16/5/20.
+//  Created by 陈樟权 on 16/5/20.xxx
 //  Copyright © 2016年 陈樟权. All rights reserved.xxx
 //
 
