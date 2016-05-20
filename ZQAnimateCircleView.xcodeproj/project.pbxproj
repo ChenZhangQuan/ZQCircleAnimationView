@@ -1,0 +1,535 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		076128821CEEADAE00ED14CA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 076128811CEEADAE00ED14CA /* main.m */; };
+		076128851CEEADAE00ED14CA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 076128841CEEADAE00ED14CA /* AppDelegate.m */; };
+		076128881CEEADAE00ED14CA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 076128871CEEADAE00ED14CA /* ViewController.m */; };
+		0761288B1CEEADAE00ED14CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 076128891CEEADAE00ED14CA /* Main.storyboard */; };
+		0761288D1CEEADAE00ED14CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0761288C1CEEADAE00ED14CA /* Assets.xcassets */; };
+		076128901CEEADAE00ED14CA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0761288E1CEEADAE00ED14CA /* LaunchScreen.storyboard */; };
+		0761289B1CEEADAE00ED14CA /* ZQAnimateCircleViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0761289A1CEEADAE00ED14CA /* ZQAnimateCircleViewTests.m */; };
+		076128A61CEEADAE00ED14CA /* ZQAnimateCircleViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 076128A51CEEADAE00ED14CA /* ZQAnimateCircleViewUITests.m */; };
+		076128B51CEEADBB00ED14CA /* ZQCircleAnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 076128B41CEEADBB00ED14CA /* ZQCircleAnimationView.m */; };
+		076128B81CEEAE1100ED14CA /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 076128B71CEEAE1100ED14CA /* UIView+Extension.m */; };
+		076128BA1CEEB03200ED14CA /* borrowBackground@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 076128B91CEEB03200ED14CA /* borrowBackground@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		076128971CEEADAE00ED14CA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 076128751CEEADAE00ED14CA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0761287C1CEEADAE00ED14CA;
+			remoteInfo = ZQAnimateCircleView;
+		};
+		076128A21CEEADAE00ED14CA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 076128751CEEADAE00ED14CA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0761287C1CEEADAE00ED14CA;
+			remoteInfo = ZQAnimateCircleView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0761287D1CEEADAE00ED14CA /* ZQAnimateCircleView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZQAnimateCircleView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		076128811CEEADAE00ED14CA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		076128831CEEADAE00ED14CA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		076128841CEEADAE00ED14CA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		076128861CEEADAE00ED14CA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		076128871CEEADAE00ED14CA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0761288A1CEEADAE00ED14CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0761288C1CEEADAE00ED14CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0761288F1CEEADAE00ED14CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		076128911CEEADAE00ED14CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		076128961CEEADAE00ED14CA /* ZQAnimateCircleViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZQAnimateCircleViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0761289A1CEEADAE00ED14CA /* ZQAnimateCircleViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZQAnimateCircleViewTests.m; sourceTree = "<group>"; };
+		0761289C1CEEADAE00ED14CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		076128A11CEEADAE00ED14CA /* ZQAnimateCircleViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZQAnimateCircleViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		076128A51CEEADAE00ED14CA /* ZQAnimateCircleViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZQAnimateCircleViewUITests.m; sourceTree = "<group>"; };
+		076128A71CEEADAE00ED14CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		076128B31CEEADBB00ED14CA /* ZQCircleAnimationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZQCircleAnimationView.h; sourceTree = "<group>"; };
+		076128B41CEEADBB00ED14CA /* ZQCircleAnimationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZQCircleAnimationView.m; sourceTree = "<group>"; };
+		076128B61CEEAE1100ED14CA /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		076128B71CEEAE1100ED14CA /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		076128B91CEEB03200ED14CA /* borrowBackground@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "borrowBackground@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0761287A1CEEADAE00ED14CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		076128931CEEADAE00ED14CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0761289E1CEEADAE00ED14CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		076128741CEEADAE00ED14CA = {
+			isa = PBXGroup;
+			children = (
+				0761287F1CEEADAE00ED14CA /* ZQAnimateCircleView */,
+				076128991CEEADAE00ED14CA /* ZQAnimateCircleViewTests */,
+				076128A41CEEADAE00ED14CA /* ZQAnimateCircleViewUITests */,
+				0761287E1CEEADAE00ED14CA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0761287E1CEEADAE00ED14CA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0761287D1CEEADAE00ED14CA /* ZQAnimateCircleView.app */,
+				076128961CEEADAE00ED14CA /* ZQAnimateCircleViewTests.xctest */,
+				076128A11CEEADAE00ED14CA /* ZQAnimateCircleViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0761287F1CEEADAE00ED14CA /* ZQAnimateCircleView */ = {
+			isa = PBXGroup;
+			children = (
+				076128831CEEADAE00ED14CA /* AppDelegate.h */,
+				076128841CEEADAE00ED14CA /* AppDelegate.m */,
+				076128B61CEEAE1100ED14CA /* UIView+Extension.h */,
+				076128B71CEEAE1100ED14CA /* UIView+Extension.m */,
+				076128B31CEEADBB00ED14CA /* ZQCircleAnimationView.h */,
+				076128B41CEEADBB00ED14CA /* ZQCircleAnimationView.m */,
+				076128B91CEEB03200ED14CA /* borrowBackground@2x.png */,
+				076128861CEEADAE00ED14CA /* ViewController.h */,
+				076128871CEEADAE00ED14CA /* ViewController.m */,
+				076128891CEEADAE00ED14CA /* Main.storyboard */,
+				0761288C1CEEADAE00ED14CA /* Assets.xcassets */,
+				0761288E1CEEADAE00ED14CA /* LaunchScreen.storyboard */,
+				076128911CEEADAE00ED14CA /* Info.plist */,
+				076128801CEEADAE00ED14CA /* Supporting Files */,
+			);
+			path = ZQAnimateCircleView;
+			sourceTree = "<group>";
+		};
+		076128801CEEADAE00ED14CA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				076128811CEEADAE00ED14CA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		076128991CEEADAE00ED14CA /* ZQAnimateCircleViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				0761289A1CEEADAE00ED14CA /* ZQAnimateCircleViewTests.m */,
+				0761289C1CEEADAE00ED14CA /* Info.plist */,
+			);
+			path = ZQAnimateCircleViewTests;
+			sourceTree = "<group>";
+		};
+		076128A41CEEADAE00ED14CA /* ZQAnimateCircleViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				076128A51CEEADAE00ED14CA /* ZQAnimateCircleViewUITests.m */,
+				076128A71CEEADAE00ED14CA /* Info.plist */,
+			);
+			path = ZQAnimateCircleViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0761287C1CEEADAE00ED14CA /* ZQAnimateCircleView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 076128AA1CEEADAE00ED14CA /* Build configuration list for PBXNativeTarget "ZQAnimateCircleView" */;
+			buildPhases = (
+				076128791CEEADAE00ED14CA /* Sources */,
+				0761287A1CEEADAE00ED14CA /* Frameworks */,
+				0761287B1CEEADAE00ED14CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZQAnimateCircleView;
+			productName = ZQAnimateCircleView;
+			productReference = 0761287D1CEEADAE00ED14CA /* ZQAnimateCircleView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		076128951CEEADAE00ED14CA /* ZQAnimateCircleViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 076128AD1CEEADAE00ED14CA /* Build configuration list for PBXNativeTarget "ZQAnimateCircleViewTests" */;
+			buildPhases = (
+				076128921CEEADAE00ED14CA /* Sources */,
+				076128931CEEADAE00ED14CA /* Frameworks */,
+				076128941CEEADAE00ED14CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				076128981CEEADAE00ED14CA /* PBXTargetDependency */,
+			);
+			name = ZQAnimateCircleViewTests;
+			productName = ZQAnimateCircleViewTests;
+			productReference = 076128961CEEADAE00ED14CA /* ZQAnimateCircleViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		076128A01CEEADAE00ED14CA /* ZQAnimateCircleViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 076128B01CEEADAE00ED14CA /* Build configuration list for PBXNativeTarget "ZQAnimateCircleViewUITests" */;
+			buildPhases = (
+				0761289D1CEEADAE00ED14CA /* Sources */,
+				0761289E1CEEADAE00ED14CA /* Frameworks */,
+				0761289F1CEEADAE00ED14CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				076128A31CEEADAE00ED14CA /* PBXTargetDependency */,
+			);
+			name = ZQAnimateCircleViewUITests;
+			productName = ZQAnimateCircleViewUITests;
+			productReference = 076128A11CEEADAE00ED14CA /* ZQAnimateCircleViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		076128751CEEADAE00ED14CA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "陈樟权";
+				TargetAttributes = {
+					0761287C1CEEADAE00ED14CA = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					076128951CEEADAE00ED14CA = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 0761287C1CEEADAE00ED14CA;
+					};
+					076128A01CEEADAE00ED14CA = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 0761287C1CEEADAE00ED14CA;
+					};
+				};
+			};
+			buildConfigurationList = 076128781CEEADAE00ED14CA /* Build configuration list for PBXProject "ZQAnimateCircleView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 076128741CEEADAE00ED14CA;
+			productRefGroup = 0761287E1CEEADAE00ED14CA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0761287C1CEEADAE00ED14CA /* ZQAnimateCircleView */,
+				076128951CEEADAE00ED14CA /* ZQAnimateCircleViewTests */,
+				076128A01CEEADAE00ED14CA /* ZQAnimateCircleViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0761287B1CEEADAE00ED14CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				076128901CEEADAE00ED14CA /* LaunchScreen.storyboard in Resources */,
+				0761288D1CEEADAE00ED14CA /* Assets.xcassets in Resources */,
+				0761288B1CEEADAE00ED14CA /* Main.storyboard in Resources */,
+				076128BA1CEEB03200ED14CA /* borrowBackground@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		076128941CEEADAE00ED14CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0761289F1CEEADAE00ED14CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		076128791CEEADAE00ED14CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				076128B81CEEAE1100ED14CA /* UIView+Extension.m in Sources */,
+				076128881CEEADAE00ED14CA /* ViewController.m in Sources */,
+				076128851CEEADAE00ED14CA /* AppDelegate.m in Sources */,
+				076128B51CEEADBB00ED14CA /* ZQCircleAnimationView.m in Sources */,
+				076128821CEEADAE00ED14CA /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		076128921CEEADAE00ED14CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0761289B1CEEADAE00ED14CA /* ZQAnimateCircleViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0761289D1CEEADAE00ED14CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				076128A61CEEADAE00ED14CA /* ZQAnimateCircleViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		076128981CEEADAE00ED14CA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0761287C1CEEADAE00ED14CA /* ZQAnimateCircleView */;
+			targetProxy = 076128971CEEADAE00ED14CA /* PBXContainerItemProxy */;
+		};
+		076128A31CEEADAE00ED14CA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0761287C1CEEADAE00ED14CA /* ZQAnimateCircleView */;
+			targetProxy = 076128A21CEEADAE00ED14CA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		076128891CEEADAE00ED14CA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0761288A1CEEADAE00ED14CA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0761288E1CEEADAE00ED14CA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0761288F1CEEADAE00ED14CA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		076128A81CEEADAE00ED14CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		076128A91CEEADAE00ED14CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		076128AB1CEEADAE00ED14CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZQAnimateCircleView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = czq.ZQAnimateCircleView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		076128AC1CEEADAE00ED14CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZQAnimateCircleView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = czq.ZQAnimateCircleView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		076128AE1CEEADAE00ED14CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZQAnimateCircleViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = czq.ZQAnimateCircleViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZQAnimateCircleView.app/ZQAnimateCircleView";
+			};
+			name = Debug;
+		};
+		076128AF1CEEADAE00ED14CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZQAnimateCircleViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = czq.ZQAnimateCircleViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZQAnimateCircleView.app/ZQAnimateCircleView";
+			};
+			name = Release;
+		};
+		076128B11CEEADAE00ED14CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZQAnimateCircleViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = czq.ZQAnimateCircleViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZQAnimateCircleView;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		076128B21CEEADAE00ED14CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZQAnimateCircleViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = czq.ZQAnimateCircleViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZQAnimateCircleView;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		076128781CEEADAE00ED14CA /* Build configuration list for PBXProject "ZQAnimateCircleView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				076128A81CEEADAE00ED14CA /* Debug */,
+				076128A91CEEADAE00ED14CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		076128AA1CEEADAE00ED14CA /* Build configuration list for PBXNativeTarget "ZQAnimateCircleView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				076128AB1CEEADAE00ED14CA /* Debug */,
+				076128AC1CEEADAE00ED14CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		076128AD1CEEADAE00ED14CA /* Build configuration list for PBXNativeTarget "ZQAnimateCircleViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				076128AE1CEEADAE00ED14CA /* Debug */,
+				076128AF1CEEADAE00ED14CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		076128B01CEEADAE00ED14CA /* Build configuration list for PBXNativeTarget "ZQAnimateCircleViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				076128B11CEEADAE00ED14CA /* Debug */,
+				076128B21CEEADAE00ED14CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 076128751CEEADAE00ED14CA /* Project object */;
+}
