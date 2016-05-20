@@ -125,7 +125,6 @@
         levLabel.center = CGPointMake(self.width / 2, self.height / 2 + 55 + 60);
         [self addSubview:levLabel];
         self.levLabel = levLabel;
-        
         UILabel *levTextLabel = [[UILabel alloc] init];
         levTextLabel.text = @"可借额度(元)";
         levTextLabel.textColor = [UIColor whiteColor];
